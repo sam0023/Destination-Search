@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.bg {
+  min-height: 100vh;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.search-img {
+  height: 20px;
+}
+input {
+  border: none;
+  outline: none;
+  margin-left: 1px;
+  padding-left: 1px;
+}
+.search-div {
+  background-color: #ffffff;
+  width: 250px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  margin-left: 15px;
+}
